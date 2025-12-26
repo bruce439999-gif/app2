@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { posts } from '@/data/posts';
-import MessageBoard from '@/components/MessageBoard';
+import GiscusComments from '@/components/Giscus';
 
 export default function Home() {
   return (
@@ -42,7 +42,7 @@ export default function Home() {
         ))}
       </div>
 
-      <MessageBoard />
+      <GiscusComments />
     </div>
   );
 }
