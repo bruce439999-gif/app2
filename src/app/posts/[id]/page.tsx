@@ -40,15 +40,6 @@ export default async function PostPage({ params }: PostPageProps) {
           <p className="text-lg leading-8 text-zinc-600 dark:text-zinc-400">
             {post.content}
           </p>
-          {/* 这里可以添加更多模拟内容 */}
-          <div className="mt-8 space-y-4">
-            <p className="text-zinc-600 dark:text-zinc-400 leading-7">
-              在现代 Web 开发中，选择合适的工具至关重要。Next.js 为我们提供了开箱即用的各种优化，而 Tailwind CSS 则让我们能够以极快的速度构建出美观且响应式的界面。
-            </p>
-            <p className="text-zinc-600 dark:text-zinc-400 leading-7">
-              这篇文章仅仅是一个开始。在接下来的日子里，我将分享更多关于前端开发、性能优化以及个人成长的心得体会。感谢你的阅读！
-            </p>
-          </div>
         </div>
       </article>
     </div>
